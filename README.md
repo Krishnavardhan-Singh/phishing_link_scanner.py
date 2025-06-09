@@ -22,20 +22,26 @@ git clone https://github.com/your-username/phishing-link-scanner.git
 cd phishing-link-scanner
 
 ✅ Step 2: (Optional) Create a Virtual Environment
+
 python3 -m venv venv
 source venv/bin/activate  # For Windows: venv\Scripts\activate
 
 ✅ Step 3: Install Dependencies
+
 pip install -r requirements.txt
 
 🧪 Usage
+
 ✅ Step 4: Run the Script
+
 python3 phishing_link_scanner.py
 
 ✅ Step 5: Enter the URL to scan when prompted
+
 🔗 Enter the URL to scan: https://example.com
 
 💡 Example Output
+
 🔎 Scanning URL: https://example.com
 [+] Server responded with status: 200
 [!] Domain age: 512 days (safe)
@@ -44,6 +50,7 @@ python3 phishing_link_scanner.py
 ✅ This URL looks safe based on current checks.
 
 ⚠️ Limitations
+
 * WHOIS data may be restricted for some domains (due to privacy settings or rate-limiting)
 
 * This tool is heuristic-based and not 100% accurate
